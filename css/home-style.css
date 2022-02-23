@@ -1,0 +1,6 @@
+#click:checked~ul{ 
+    display:flex;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
