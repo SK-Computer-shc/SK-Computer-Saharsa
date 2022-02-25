@@ -13,27 +13,37 @@
     <title>Contact-us | SK Computer Saharsa Bihar</title>
     <link rel="icon" type="image/x-icon" href="/assets/favicon.70e61575.ico?">
     <link rel="stylesheet" href="/contact-css.css">
-
+    <script src="/Mobile-nav.js"></script>
 </head>
 
 <body>
 
-    <nav
-        class="flex flex-wrap w-full z-50 relative justify-between m-0 p-0 text-slate-800 border-2 drop-shadow-sm rounded-xl">
+    <nav class="flex flex-col justify-between items-center md:flex-row text-slate-800 border-2 drop-shadow-lg rounded-2xl">
         <a href="/"><img src="/assets/sk-computer-logo.17698e68.jpg" title="SK Computer Saharsa"
                 class="w-10 h-10 mx-2 my-4 border-2 rounded-xl shadow-sm hover:drop-shadow-lg"
-                alt="logo SK Computer saharsa-Bihar"> </a>
+                alt="logo SK Computer saharsa-Bihar">
+        </a>
         <!-- <div class="text-purple-800 text-3xl my-3 hidden"> SK Computer</div> -->
-        <ul class="py-6 px-4 flex flex-wrap space-x-8 justify-center">
-            <li> <a class="px-2 py-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
-                    href="/" title="Home">Home</a></li>
-            <li> <a class="px-2 py-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
+        <ul class="hidden md:flex" id="navmenu">
+            <li class="p-6"> <a
+                    class="p-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
+                    href="\" title="Home">Home</a></li>
+            <li class="p-6"> <a
+                    class="p-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
                     href="/contact/" title="Contact US">Contact</a></li>
-            <li> <a class="px-2 py-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
+            <li class="p-6"> <a
+                    class="p-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
                     href="/about/" title="About SK Computer">About Us</a></li>
-            <li> <a class="px-2 py-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
+            <li class="p-6"> <a
+                    class="p-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
                     href="/services/" title="Services offered">Services</a></li>
         </ul>
+        <a href="javascript:void(0);" onclick="myFunction()" class="md:hidden absolute right-6 top-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </a>
     </nav>
     <div class="relative mx-4 my-1">
         <h2
@@ -81,26 +91,6 @@
     </div>
 
     <footer class="mt-10">
-        <!-- <div class="">
-    <h5 class="block text-slate-500 text-center underline underline-offset-4">
-        Our Social Profile: connect with us to get Notified about Big Deals and Offers. © SK Computer
-    </h5>
-    <ul class="flex my-5 justify-center">
-        <li class="h-14 w-14 mx-1 hover:opacity-90"><a href="https://www.facebook.com/SK.Computer.Saharsa">
-                <img src="/imges/Social-logo/facebook.png" alt="facebook"></a></li>
-        <li class="h-14 w-14 mx-1 hover:opacity-90"><a href="https://twitter.com/SK_Computer_SHC"> <img
-                    src="/imges/Social-logo/Twitter.png" alt=""></a></li>
-        <li class="h-14 w-14 mx-1 hover:opacity-90"><a
-                href="https://sk-electronics-printers-baghwa-saharsa.business.site"> <img
-                    src="/imges/Social-logo/google+.png" alt=""></a></li>
-        <li class="h-14 w-14 mx-1 hover:opacity-90"><a href="https://g.co/kgs/X1JT4g"> <img
-                    src="/imges/Social-logo/Google.png" alt=""></a></li>
-        <li class="h-14 w-14 mx-1 hover:opacity-90"><a href="https://wa.me/+919939527286"> <img
-                    src="/imges/Social-logo/Whatsapp.png" alt=""></a></li>
-        <li class="hidden"><a href=""> <img src="imges\Social-logo\Maps.png" alt=""></a></li>
-        <li class="hidden"><a href=""> <img src="" alt="Contact/Call-Us"></a></li>
-    </ul>
-</div> -->
         <div class="text-center text-white mt-8 p-10 bg-gray-900">
             <span class="">Saharsa, Bihar India | Contact No:+91 9939527286 | Email: skelectronics@outlook.in
                 skelectronics07@gmail.com</span>

@@ -13,6 +13,7 @@
     <title>Home | SK Computer</title>
     <link rel="icon" type="image/x-icon" href="/assets/favicon.70e61575.ico?">
     <link rel="stylesheet" href="/home-css.css">
+    <script src="/Mobile-nav.js"></script>
 
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
@@ -34,23 +35,32 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- Written by ChampakBoss -->
-
-    <nav
-        class="flex flex-wrap w-full z-50 relative justify-between m-0 p-0 text-slate-800 border-2 drop-shadow-sm rounded-xl">
+    <nav class="flex flex-col justify-between items-center md:flex-row text-slate-800 border-2 drop-shadow-lg rounded-2xl">
         <a href="/"><img src="/assets/sk-computer-logo.17698e68.jpg" title="SK Computer Saharsa"
                 class="w-10 h-10 mx-2 my-4 border-2 rounded-xl shadow-sm hover:drop-shadow-lg"
-                alt="logo SK Computer saharsa-Bihar"> </a>
+                alt="logo SK Computer saharsa-Bihar">
+        </a>
         <!-- <div class="text-purple-800 text-3xl my-3 hidden"> SK Computer</div> -->
-        <ul class="py-6 px-4 flex flex-wrap space-x-8 justify-center">
-            <li> <a class="px-2 py-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
+        <ul class="hidden md:flex" id="navmenu">
+            <li class="p-6"> <a
+                    class="p-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
                     href="\" title="Home">Home</a></li>
-            <li> <a class="px-2 py-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
+            <li class="p-6"> <a
+                    class="p-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
                     href="/contact/" title="Contact US">Contact</a></li>
-            <li> <a class="px-2 py-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
+            <li class="p-6"> <a
+                    class="p-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
                     href="/about/" title="About SK Computer">About Us</a></li>
-            <li> <a class="px-2 py-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
+            <li class="p-6"> <a
+                    class="p-2 rounded-xl cursor-pointer shadow-md bg-slate-50 hover:bg-slate-100 hover:drop-shadow-lg"
                     href="/services/" title="Services offered">Services</a></li>
         </ul>
+        <a href="javascript:void(0);" onclick="myFunction()" class="md:hidden absolute right-6 top-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </a>
     </nav>
     <div class="flex flex-wrap shadow-sm my-2 rounded-xl font-mono justify-evenly">
         <div class=" max-w-lg text-5xl text-center font-serif font-medium text-fuchsia-800">
@@ -127,8 +137,8 @@
                                 src="/assets/Google.8ec17930.png" alt="Google"></a></li>
                     <li class="h-14 w-14 mx-1 hover:opacity-90"><a href="https://wa.me/+919939527286"> <img
                                 src="/assets/Whatsapp.2674f001.png" alt="Whatsapp"></a></li>
-                    <li class="hidden"><a href=""> <img src="/assets/Maps.81fc2f67.png" alt="Google Map"></a></li>
-                    <li class="hidden"><a href=""> <img src="" alt="Contact/Call-Us"></a></li>
+                    <!-- <li class="hidden"><a href=""> <img src="/assets/Maps.81fc2f67.png" alt="Google Map"></a></li>
+                    <li class="hidden"><a href=""> <img src="" alt="Contact/Call-Us"></a></li> -->
                 </ul>
             </div>
             <div class="text-center text-white mt-8 p-10 bg-gray-900">
